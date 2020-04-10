@@ -1,0 +1,176 @@
+@media screen and (max-width: 1200px) {
+    .header {
+        padding: 0;
+        background: #FFF1B8;
+        .header__menu-btn {
+            display: block;
+            position: absolute;
+            z-index: 5;
+            top: 0.5rem;
+            left: 1rem;
+        }
+        .header-inner {
+            display: none;
+            background-color: rgba($color: #F5F5F5, $alpha: 0.7);
+            width: 20rem;
+        }
+        .header-search {
+            max-width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .header-btn {
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+        .header-btn__entry {
+            margin: 0;
+            width: 100%;
+        }
+        .header-btn__cart {
+            width: 100%;
+            margin-left: 5px;
+        }
+        .header-logo {
+            margin-left: 2rem;
+        }
+    }
+    .header-rest {
+        background-color: #fff;
+        .header-inner {
+            background-color: #fff;
+        }
+    }
+    .body {
+        background-color: #fff;
+    }
+    .promo {
+        .promo-heading {
+            padding: 0;
+        }
+        .promo__title,
+        .promo__text {
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .restaurants {
+        .restaurants-item {
+            width: 50%; 
+        }
+        .restaurants__item {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        } 
+    }
+    .footer {
+        .footer-inner {
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer-link {
+            max-width: 100%;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            ul {
+                .footer-link__list {
+                    margin: 0 auto;
+                }
+            }
+        }
+        .footer-social {
+            a {
+                margin: 0 auto;
+            }
+        }
+    }
+    .restaurant {
+        .restaurant-item {
+            width: 50%; 
+        }
+        .restaurant__item {
+            width: 100%;
+            .restaurant__item-img {
+                width: 100%;
+            }
+            .restaurant-product__desc {
+                margin-bottom: 3rem;
+            }
+        } 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .promo {
+        .promo__title {
+            font-size: 2rem;
+        }
+        .promo__text {
+            font-size: 1.5rem;
+        }
+    }
+    .restaurants {
+        .restaurants-item {
+            width: 100%; 
+        } 
+    }
+    .restaurant {
+        .restaurant-item {
+            width: 100%; 
+        } 
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .restaurants {
+        .restaurants-heading {
+            flex-direction: column-reverse;
+        }
+        .restaurants__search {
+            width: 100%;
+            input {
+                width: 100%;
+            }
+        }
+        .restaurants__title {
+            text-align: center;
+            margin-top: 15px;
+        }
+    }
+    .footer {
+        .footer-link {
+            ul {
+                flex-direction: column;
+                .footer-link__list {
+                    margin: 0 auto;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .restaurant {
+        .restaurant-heading {
+            flex-direction: column;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1201px) {
+    .header {
+        .header__menu-btn {
+            display: none;
+        }
+        .header-inner {
+            display: flex !important;
+        }
+    }
+}
